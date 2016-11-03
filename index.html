@@ -84,6 +84,43 @@
 		</ul>  		
    	</section>
 
+	<section>
+		<h2>Adding a Twitter feed</h2>
+		<p>You can add various types of Twitter material to a web page. And you can do it in various ways too. Good place to start is with <a href="https://publish.twitter.com/#" rel="external">Twitter's own publishing tool</a>.</p>
+		
+		<article>
+			<h3>Adding a Twitter collection</h3>
+			<p><a href="https://support.twitter.com/articles/20170322" rel="external">You will need Tweedeck for this</a> &rarr;</p>
+			<div>
+				<a class="twitter-grid" data-partner="tweetdeck" href="https://twitter.com/jokedewinter/timelines/794158906008342529">on web design (and such)</a>
+			</div>
+			
+		</article>
+		<article class="twitter__timeline">
+			<h3>Adding a timeline with the publishing tool</h3>
+			<p><a href="https://publish.twitter.com/#" rel="external">Twitter publishing tool</a> &rarr;</p>
+			<div>
+				<a class="twitter-timeline" href="https://twitter.com/jokedewinter">Tweets by jokedewinter</a>
+			</div> 
+		</article>
+		
+		<article class="twitter__timeline">
+			<h3>Adding a timeline via a Twitter widget</h3>
+			<p><a href="https://support.twitter.com/articles/20170071">Twitter widget &rarr;</a></p>
+		    <div>
+		    	<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/jokedewinter" data-widget-id="453100736801275904">Tweets by @jokedewinter</a>
+			</div> 
+        </article>
+          
+	</section>
 </div>    
+
+<!-- Script for the collection -->
+<!-- Script for the timeline using the publishing tool -->
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<!-- Script for the timeline using the widget -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
 </body>
 </html>

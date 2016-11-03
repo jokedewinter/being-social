@@ -2,6 +2,13 @@
 /* Structure
  * ------------------------------------------------------------- */
 
+* { 
+	-moz-box-sizing: border-box; 
+	-webkit-box-sizing: border-box; 
+	box-sizing: border-box; 
+	-webkit-text-size-adjust: 100%; 
+}
+
 body {
 	font-family: Verdana, sans-serif;
 	line-height: 1.5;
@@ -87,4 +94,21 @@ li {
 	background-color: red;
 	border-radius: 3px;
 	color: #fff;
+}
+
+/* Twitter
+ * ------------------------------------------------------------- */
+
+.twitter__timeline {
+	width: 45%;
+	float: left;
+}
+
+.twitter__timeline:last-of-type {
+	margin-left: 10%;
+}
+
+.twitter__timeline div {
+	padding: 16px;
+	border: 3px solid #ccc;
 }
